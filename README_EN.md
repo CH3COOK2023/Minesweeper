@@ -1,6 +1,6 @@
 # Minesweeper
 
-**[[中文]() | [English]()]**
+**[[中文](https://github.com/CH3COOK2023/Minesweeper/tree/master) | [English](https://github.com/CH3COOK2023/Minesweeper/blob/master/README_EN.md)]**
 
 ### How to get started
 
