@@ -7,10 +7,10 @@
 You have to configure the parameter in `main`. These are the parameter you can adjust...
 
 ```java
-Constant.x = 20;		// 雷区的长度
-Constant.y = 20;		// 雷区的宽度
-Constant.mines = 35;	// 雷数量
-Constant.scale = 1;		// 界面缩放，允许的值为 0.6 到 3
+Constant.x = 20;		// length of mine fields
+Constant.y = 20;		// width of mine fields
+Constant.mines = 35;	// number of mines
+Constant.scale = 1;		// scaling the interface from 0.6 to 3
 ```
 
 Then, use `Game.newGame(); to start the game!
