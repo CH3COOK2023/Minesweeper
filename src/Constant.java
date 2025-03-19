@@ -1,6 +1,5 @@
 public class Constant {
     // 资源路径
-    public static final String PATH = "src/resources";
     public static final String UNDER_PATH = "src/resources/";
     public static boolean showEdge = false;
 
