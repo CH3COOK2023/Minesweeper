@@ -1,3 +1,5 @@
+package functions;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.MouseEvent;
@@ -12,7 +14,7 @@ public class Minesweeper extends JFrame {
     private final int marginBottom = 10;
     private final int FIX_BOUND_X = Math.max(12, (int) (-15 * Constant.scale + 45));
     private final int FIX_BOUND_Y = Math.max(25, (int) (-30 * Constant.scale + 100));
-    private final JFrame frame = new JFrame("Minesweeper");
+    private final JFrame frame = new JFrame("functions.Minesweeper");
     private final JPanel topPanel = new JPanel();
     private final JPanel bottomPanel = new JPanel();
     private final int mineFieldWidth = Constant.x;
@@ -133,6 +135,9 @@ public class Minesweeper extends JFrame {
         frame.setLayout(null);
         frame.getContentPane().setBackground(new Color(192, 192, 192));
         frame.setResizable(false);
+        frame.setTitle("Minesweeper");
+        Image icon = Toolkit.getDefaultToolkit().getImage(Constant.UNDER_PATH+"mine_icon.png");
+        frame.setIconImage(icon);
     }
 
     private void initializeStructure() {

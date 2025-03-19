@@ -1,3 +1,5 @@
+package functions;
+
 public class Game {
     public static Queue<Minesweeper> runtimeInstance = new Queue<>();
     private Game(){}

@@ -1,3 +1,5 @@
+package functions;
+
 public class Constant {
     // 资源路径
     public static final String UNDER_PATH = "src/resources/";

@@ -1,12 +1,17 @@
+import functions.Constant;
+import functions.Game;
+
 public class Main {
     public static void main(String[] args) {
+        // 创建一个自定义的
         custom();
         Game.newGame();
     }
     // 自定义
     private static void custom(){
         beginner();
-        Constant.scale = 2.0;
+        Constant.flagOnly = false;
+        Constant.scale = 2;
     }
     // 初级
     private static void beginner(){
@@ -29,9 +34,9 @@ public class Main {
     // 高级
     private static void expert(){
         Constant.scale = 0.6; // 默认缩放 [0.6-3] 默认 1
-        Constant.x = 16;  // x 大小
+        Constant.x = 30;  // x 大小
         Constant.y = 16;  // y 大小
-        Constant.mines = 40; // 雷数量
+        Constant.mines = 99; // 雷数量
         Constant.flagOnly = true; // 是否去除右键问号标记
         Constant.noFlag = false; // 是否采用NF
     }

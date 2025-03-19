@@ -1,3 +1,5 @@
+package functions;
+
 public class Queue<E>{
 
     // head--tail  <---- add here

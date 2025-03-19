@@ -1,3 +1,5 @@
+package functions;
+
 import javax.swing.*;
 
 public class Counter extends JFrame {
