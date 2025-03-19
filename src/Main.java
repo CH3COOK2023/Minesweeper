@@ -9,9 +9,10 @@ public class Main {
     }
     // 自定义
     private static void custom(){
-        beginner();
-        Constant.flagOnly = false;
-        Constant.scale = 2;
+        Constant.x = 20;
+        Constant.y = 20;
+        Constant.mines = 35;
+        Constant.scale = 1;
     }
     // 初级
     private static void beginner(){
